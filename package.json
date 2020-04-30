@@ -1,0 +1,31 @@
+{
+  "name": "mocha-selenium-sample",
+  "version": "0.0.1",
+  "description": " Selenium examples for Mocha and LambdaTest",
+  "scripts": {
+    "test": "mocha ./specs/oxygen_raw.js",
+    "parallel": "mocha specs/parallel_test.js conf/parallel.conf.js"
+  },
+  "keywords": [
+    "mocha",
+    "LambdaTest",
+    "selenium",
+    "examples"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "mocha": "^6.2.0",
+    "selenium-webdriver": "^3.0.0-beta-3"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaTest/mocha-selenium-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaTest/mocha-selenium-sample/issues"
+  },
+  "homepage": "https://github.com/LambdaTest/mocha-selenium-sample#readme"
+}
